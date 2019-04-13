@@ -1,0 +1,13 @@
+body{
+  background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#nameinput{
+  position:fixed;
+  width:50 %;
+  height: 70%;
+  
+}
