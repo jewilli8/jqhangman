@@ -3,17 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Hangman</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel ="stylesheet" href ="style.css">
   </head>
-  <link rel ="stylesheet" href ="style.css">
-  <script src = "script.js"> </script>
-  <body>
-    <div class ="container" id="main">
-      <form id="nameinput">
-        <label for name>Hello, What is your Name? </label>
-        <input type="text" id="name" placeholder="John"></input>
-        </form>
-        
-      </div>
 
+
+  <body>
+    <div class="container" id= "main">
+      <div class = "row">
+        <div class = "col-auto display-3 text-light" id="greeting">
+          Welcome
+        </div>
+</div> <!--row-->
+      <form action="#" class=" bg-light pt-1" id="nameForm"; return false>
+       <fieldset class="form-group display-4" id="getstarted">Nice to meet You. </fieldset>
+       <div class = "form-group" id="formgroup2">
+        <label for name class="form-control-label">Enter your name: </label> <input class="form-control form-control-lg"  type="text" id="name" placeholder="Joe" >
+        <button class="btn btn-primary" id="continue">Continue</button>
+       </div>
+     </form>
+
+<div class = "row bg-light display-1 justify-content-center align-bottom fixed-bottom" id="blankRow">
+</div> <!---Blanks-->
+
+    </div> <!--Container-->
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@vorosbenisop?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Benjamin Voros"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Benjamin Voros</span></a>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src = "script.js"> </script>
   </body>
 </html>
