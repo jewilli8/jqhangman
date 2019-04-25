@@ -1,4 +1,5 @@
 $(document).ready(() => {
+  $('#continue').preventDefault();
   $('#blankRow').hide();
   $('#letterInputform').hide();
   $('#lettersInRow').hide();
