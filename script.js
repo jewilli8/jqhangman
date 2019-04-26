@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  
+
   $('#blankRow').hide();
   $('#letterInputform').hide();
   $('#lettersInRow').hide();
@@ -31,8 +31,8 @@ $('#getstarted').hide();
 $('#name').on('mouseenter',() =>{
 $('#getstarted').show();
 });
-$('#continue').on('click', ()=> {
-
+$('#continue').on('click', (event)=> {
+event.preventDefault();
     $('#nameForm').hide();
     const inputValue = $('#name').val();
     $('#greeting').html('Hello, '+ inputValue);
